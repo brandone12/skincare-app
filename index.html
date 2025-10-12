@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Rutina de Skincare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌸 Mi Rutina de Skincare</h1>
+
+    <label for="skinType">Tipo de piel:</label>
+    <select id="skinType">
+      <option value="seca">Seca</option>
+      <option value="grasa">Grasa</option>
+      <option value="mixta">Mixta</option>
+      <option value="sensible">Sensible</option>
+    </select>
+
+    <div class="buttons">
+      <button onclick="generateRoutine('día')">Rutina de Día ☀️</button>
+      <button onclick="generateRoutine('noche')">Rutina de Noche 🌙</button>
+    </div>
+
+    <ul id="routineList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
