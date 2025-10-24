@@ -1,6 +1,8 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #ffeaf4;
+  background-image: url('../skincare-app/img/fondo.jpeg');
+  background-size: cover;
+  background-position: center;
   color: #333;
   display: flex;
   justify-content: center;
